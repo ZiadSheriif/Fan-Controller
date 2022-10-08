@@ -6,7 +6,7 @@
  *
  * Description: types for AVR
  *
- * Author: Ziad Sherif
+ * Author: Ziad-Sherif
  *
  *******************************************************************************/
 

@@ -6,7 +6,7 @@
  *
  * Description: Header file for the LCD driver
  *
- * Author: Ziad Sherif
+ * Author: Ziad-Sherif
  *******************************************************************************/
 
 #ifndef LCD_H_

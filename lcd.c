@@ -6,7 +6,7 @@
  *
  * Description: Source file for the LCD driver
  *
- * Author: Ziad Sherif
+ * Author: Ziad-Sherif
  *******************************************************************************/
 
 #include <util/delay.h> /* For the delay functions */

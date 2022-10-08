@@ -6,7 +6,7 @@
  *
  * Description: Header file for the AVR GPIO driver
  *
- * Author: Ziad Sherif
+ * Author: Ziad-Sherif
  *
  *******************************************************************************/
 
