@@ -43,7 +43,7 @@ run Fan.pdsprj
 ![main](media/view.png)
 
 #### Demo Video
-![demo](media/Cf.gif)
+![demo](media/CF2.gif)
 
 ### Contributors
 
