@@ -59,4 +59,4 @@ run Fan.pdsprj
 ## License <a name="license"></a>
 
 > This software is licensed under MIT License,
-> See [License](https://github.com/ZiadSheriif/Stop-Watch/blob/main/License) for more information ©ZiadSheriif.
+> See [License](https://github.com/ZiadSheriif/Fan-Controller/blob/master/license) for more information ©ZiadSheriif.
