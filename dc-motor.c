@@ -26,18 +26,12 @@ void DcMotor_Init(void)
 
 void DcMotor_Rotate(DcMotor_State state, uint8 speed)
 {
-    if (state == stop)
+    if (stop == state)
     {
         GPIO_writePin(MOTOR_PORT_ID, MOTOR_PIN0_ID, 0);
         GPIO_writePin(MOTOR_PORT_ID, MOTOR_PIN1_ID, 0);
     }
-    else if (state == ANTI_CLOCK_WISE)
-    {
-        GPIO_writePin(MOTOR_PORT_ID, MOTOR_PIN0_ID, 0);
-        GPIO_writePin(MOTOR_PORT_ID, MOTOR_PIN1_ID, 1);
-        PWM_Timer0_Start(speed);
-    }
-    else if (state == CLOCK_WISE)
+    else if (CLOCK_WISE == state)
     {
         GPIO_writePin(MOTOR_PORT_ID, MOTOR_PIN0_ID, 1);
         GPIO_writePin(MOTOR_PORT_ID, MOTOR_PIN1_ID, 0);

@@ -19,10 +19,14 @@
 #include "adc.h"
 int main()
 {
-    DcMotor_Init();
-    DcMotor_State state = stop;
+    /*
+     * Initialization modules
+     */
 
     LCD_init();
+
+    DcMotor_Init();
+    DcMotor_State state = stop;
 
     ADC_ConfigType ConfigType;
     ConfigType.ref_volt = INTERNAL;
