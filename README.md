@@ -1,34 +1,41 @@
 # Temperature Controlled Fan
 
-Embedded System Application using External Interrupt , Timer , LCD , ADC , Dc-Motor and LM35 Temperature Sensor Based on C. 
+Embedded System Application Based on C.
 
 ## Description
 
- System that controls the Stop Watch and displays it on six of 7-segments by using External Interrupts, GPIO, Timer1, and 7-Segment. 
+ Embedded System Application in which the fan is automatically turned ON or OFF according to the temperature.
 
  ***Feature***
-1. Interrupt 0 for Reset the Stop Watch. 
-2. Interrupt 1 for Pause the Stop Watch.
-3. Interrupt 2 for Resume the Stop Watch. 
-4. Timer1 to control the time.
+
+1. GPIO  
+2. ADC
+3. PWM
+4. LM35 Sensor
+5. LCD
+6. DC-Motor
+7. Microcontroller: ATMega16
 
 ## Getting Started
 
 ### Dependencies
 
 * C
-* AVR Microcontroller (ATMega32)
+* AVR Microcontroller (ATMega16)
 * Proteus Software 
 
 ### Installing
 
 ```
-git clone https://github.com/ZiadSheriif/Stop-Watch.git 
+git clone https://github.com/ZiadSheriif/Fan-Controller.git 
 ```
 ### Executing program
 
 ```
-run sim.pdsprj
+open FanController.elf in Fan.pdsprj
+```
+```
+run Fan.pdsprj
 ```
 
 ### Screenshots
@@ -36,7 +43,7 @@ run sim.pdsprj
 ![main](media/view.png)
 
 #### Demo Video
-![demo](media/Sw.gif)
+<!-- ![demo](media/Sw.gif) -->
 
 ### Contributors
 
