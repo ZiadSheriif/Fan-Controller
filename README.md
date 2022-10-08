@@ -6,7 +6,7 @@ Embedded System Application Based on C.
 
  Embedded System Application in which the fan is automatically turned ON or OFF according to the temperature.
 
- ***Feature***
+ ***Features***
 
 1. GPIO  
 2. ADC
